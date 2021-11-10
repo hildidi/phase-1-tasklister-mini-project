@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     buildTodos(e.target.newtaskdescription.value)
     form.reset()
   })
-})
+})``
 
 function buildTodos(todos){
   let p = document.createElement('p')
